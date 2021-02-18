@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<title>Lidia Guerra Psicologa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+p {text-indent: 25px;
+}
+
+</style>
+
+<body id="myPage">
+
+<!-- Barra de Navegação normal -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" 
+	 href="javascript:void(0);" 
+	 onclick="openNav()"><i class="fa fa-bars"></i></a>
+	 
+  <a href="#" class="w3-bar-item w3-button w3-theme-d5 w3-hover-white"><i class="fa fa-home w3-margin-right"></i>Inicio</a>
+  <a href="#quemsou" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Quem Sou</a>
+  <a href="#atendimento" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Atendimento Online</a>
+  <a href="#tratamentos" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Tratamentos</a>
+  <a href="#contato" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Entre em contato</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Pesquisa"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Barra de Navegação - mobile -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#quemsou" class="w3-bar-item w3-button">Quem Sou</a>
+    <a href="#atendimento" class="w3-bar-item w3-button">Atendimento Online</a>
+    <a href="#tratamentos" class="w3-bar-item w3-button">Tratamentos</a>
+    <a href="#contato" class="w3-bar-item w3-button">Entre em contato</a>
+    <!--a href="#" class="w3-bar-item w3-button">??-??-??</a-->
+  </div>
+</div>
+
+<!-- Imagem do Cabeçalho -->
+<div class="w3-display-container w3-animate-opacity w3-topcenter w3-padding-64">
+  <img src="logo.png" 
+	   class="responsive"
+	   alt="Lidia Guerra Psicologa" 
+	   style="max-width: 100%; height: auto;">
+	   
+  <!--div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" 
+			class="w3-button w3-xlarge w3-theme w3-hover-teal" 
+			title="Titulo aqui">Lidia Guerra Psicóloga</button>
+  </div-->
+  
+</div>
+
+<!-- Inicio + foto P&B -->
+<div class="w3-container w3-padding-64 w3-center w3-theme-l5" id="inicio">
+<div style class="w3-rightbar w3-topbar w3-bottombar w3-leftbar w3-border-teal">
+<h1>AJUDAR AS PESSOAS</h1>
+</div>
+<br>
+<h2>"O propósito da Psicoterapia é ajudar o ser humano a se conhecer, se curar, se aceitar e se desenvolver.
+A dor pode passar."</h2>
+
+<div class="w3-row"><br>
+
+	<div class="w3-twothird w3-content w3-left-align">
+		<br>
+		<h2>Olá!</h2>
+		<br>
+		<p>Essa página é um espaço idealizado para que o meu consultório fique perto de você. É para quem quiser informações sobre mecanismos emocionais, para compreender um pouco mais de si mesmo, refletir sobre os assuntos, ter uma ideia do processo psicoterapêutico, sua importância e influência na qualidade de vida.
+		<p>A palavra-chave do meu trabalho é ACOLHIMENTO. Podemos aprender muito com nossos sofrimentos e descobrir caminhos internos para auxiliar nossas escolhas na vida.
+		<p>A porta está aberta. Seja bem-vindo...
+		<p>"O Psicólogo baseará o seu trabalho no respeito, e na promoção da liberdade, da dignidade, da igualdade e da integridade do ser humano, apoiado nos valores que embasam a Declaração Universal dos Direitos Humanos."
+		<p>É tão lindo aprender a ser uma pessoa melhor com a minha profissão... me faz tão bem! Me faz tão orgulhosa de ser Psicóloga!
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="lidia_pb1.jpg" alt="Lidia Guerra" style="width:75%" class="w3-circle w3-hover-opacity">
+	</div>
+
+</div>
+</div>
+
+
+<!-- POPUP informativo -->
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Entre em contato</h4>
+      <h5>Dados da Atos <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Rua Tasman, 186</p>
+      <p>Informação importante para ser popup <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>(11) 98014-3803</p>
+    </footer>
+  </div>
+</div>
+
+
+<!-- Quem Sou -->
+<div class="w3-container w3-padding-64 w3-center w3-theme-l3" id="quemsou">
+<div style class="w3-rightbar w3-topbar w3-bottombar w3-leftbar w3-border-teal">
+	<h1>Especializada em atendimento presencial e online</h1>
+	<h2>Abordagem cognitivo-comportamental com técnicas sistêmicas</h2>
+</div>
+	<div class="w3-row"><br>
+
+		<div class="w3-half w3-left-align">
+			<h3 class="w3-center">Graduações</h3>
+			<br>
+			<br> 
+			<b>	2021 - Pós-graduando em Constelação Sistêmica Integrada </b> 
+			<br>
+			Centro de Mediadores - Instituto Superior de Educação (ISE)
+			<br>
+			<br>
+			<b>	2016 - Especialização em Terapia Comportamental e Cognitiva </b>
+			<br>
+			Universidade de São Paulo - USP
+			<br>
+			<br> 
+			<b>	2007 - Pós-Graduação em Gestão de Pessoas </b> 
+			<br>
+			Fundação Educacional de Fernandópolis - SP
+			<br>
+			<br> 
+			<b>	2004 - Bacharel em Psicologia </b> 
+			<br> 
+			Fundação Educacional de Fernandópolis - SP
+			<br>
+			<br>
+			</p>
+		</div>
+		<div class="w3-half w3-left-align">
+			<h3 class="w3-center">Certificados Reconhecidos</h3>
+			<br><br> <b>
+			2018 - Mindfulness Funcional - Propósito e Auto Acolhimento
+			</b> <br>
+			Escola de Mindfulness Funcional - SP
+			<br><br> <b>
+			2018 - Mindfulness Funcional - Relacionando-se com Consciência Plena
+			</b> <br>
+			Escola de Mindfulness Funcional - SP
+			<br><br> <b>
+			2018 - Mindfulness Funcional - Iniciação
+			</b> <br>
+			Escola de Mindfulness Funcional - SP
+			<br><br> <b>
+			2011 - II Seminário Internacional - A Educação Medicalizada
+			</b> <br>
+			UNIP - SP
+			<br><br> <b>
+			2009 - Conferência Municipal de Educação III
+			</b> <br>
+			Araçatuba - SP
+			<br><br> <b>
+			2009 - IV Seminário de Saúde Mental e Trabalho no Grande ABC
+			</b> <br>
+			CEREST
+			<br><br> <b>
+			2009 - A Contextualização da Hiperatividade no Âmbito Escolar
+			</b> <br>
+			CRP - SP
+			<br><br> <b>
+			2009 - Conferência Municipal de Educação II
+			</b> <br>
+			Araçatuba - SP
+			<br><br> <b>
+			2009 - Hiperatividade e Medicação
+			</b> <br>
+			CRP - SP
+			<br><br> <b>
+			2009 - Conferência Municipal de Educação I
+			</b> <br>
+			Araçatuba - SP
+			<br><br> <b>
+			2006 - Palestra - Colégio Cidade de Fernandópolis
+			</b> <br>
+			Anglo - SP
+			<br><br> <b>
+			2005 - I Jornada de Psicologia
+			</b> <br>
+			Fundação Educacional de Fernandópolis - SP
+			<br><br> <b>
+			2005 - Jornada de Atualização em Psicologia Clínica
+			</b> <br>
+			Instituto TCR - SP
+			<br><br> <b>
+			2004 - Análise Funcional do Comportamento em Clínica
+			</b> <br>
+			CETECC - SP
+			<br><br> <b>
+			2004 - Atualização em Psicologia Clínica
+			</b> <br>
+			CETECC - SP
+			<br><br> <b>
+			2003 - I Jornada de Terapia Infantil do Interior Paulista
+			</b> <br>
+			UNESP/IBILCE
+			<br><br> <b>
+			2003 - III Jornada de Psicologia
+			</b> <br>
+			Fundação Educacional de Fernandópolis - SP
+			<br><br> <b>
+			2002 - II Semana de Psicologia
+			</b> <br>
+			Fundação Educacional de Fernandópolis - SP
+		</div>
+		
+		<!--div class="w3-half">
+		  <img src="lidia_pb1.jpg" alt="Lidia Guerra" style="width:50%" class="w3-circle w3-hover-opacity">
+
+		</div-->
+
+	</div>
+</div>
+
+<!-- Atendimento Online -->
+<div class="w3-row-padding w3-center w3-padding-64 w3-theme-l5" id="atendimento">
+<div class="w3-rightbar w3-topbar w3-bottombar w3-leftbar w3-border-teal">
+    <h1>Sobre o Atendimento Online</h1>
+</div>	
+    <div class="w3-half w3-margin-bottom w3-left-align">
+		<br>
+		<br>
+		<p>A Psicologia é o estudo do ser humano, suas especificidades, história, interação, 
+		cultura, emoção e pensamento. O encanto de sentir e agir com isso tudo e existir em sua unicidade.
+		</p><p>
+		As tecnologias avançam e nós profissionais da área de Psicologia temos buscado 
+		compreender o impacto real dessa nova forma de se relacionar com o mundo. 
+		A proposta de abrir um espaço virtual dentro dessa realidade e buscar preservar a 
+		capacidade humana de sentir e agir em seu ambiente me parece a oportunidade de demonstrar 
+		adaptabilidade e aceitação do ser. Minha proposta aqui é restrita às consultas clínicas 
+		para as quais dediquei minha formação e atuação profissional.
+		</p><p>
+		O consultório enquanto momento de reflexão e contato com si mesmo, numa proposta de 
+		atendimento individual, tem sido um meio eficaz de preservar a privacidade do ser humano 
+		e enriquecer suas percepções e potencialidades. É tarefa da Psicólogo acolher o indivíduo 
+		com a escuta ativa e com intervenções cuidadosas que respeitem sua forma e que não 
+		interfira no próprio ser, mas propondo cura para a dor psíquica que se apresente.
+		</p><p>
+		Para um atendimento virtual, se preservado o cuidado com o ambiente e incentivada a 
+		escolha da sala de atendimento com privacidade (salas de descanso, escritórios ou quartos 
+		individuais, por exemplo), indicado o uso de fones de ouvido para que a escuta seja ainda 
+		mais privativa, se houver bem estar no momento da sessão em oferecer atenção plena e boa 
+		orientação, percebo toda credibilidade para que se atinja o vínculo terapêutico e 
+		consequentemente os mesmos resultados do atendimento presencial.
+		</p><p>
+		Defendo que para preservar o contato humano os atendimentos sejam sempre por vídeo chamada, 
+		tornando tanto para o paciente quanto para o profissional a possibilidade de se assegurar da 
+		conexão de internet e da expressividade do que é tratado.
+		</p><p>
+		Para a abertura de trocas de mensagens ainda que não sejam constantes , há os aparelhos 
+		smartphones que só se destravam com a minha digital, preservando todo o sigilo do conteúdo do paciente.
+		</p><p>
+		Na possibilidade de existir interesse em atendimento de casais, onde o casal terá se reunido 
+		juntos para este momento, se escolhe uma plataforma de atendimento única assim como no atendimento 
+		individual - adolescente ou adulto - (aplicativos como: WhatsApp, Skype, GoogleDuo... oferecem boa 
+		qualidade para este fim), proponho que o psicólogo também esteja sempre de fone de ouvido 
+		para melhor segurança do atendimento.
+		</p>
+		<br>
+		<p style="text-align:right;">
+		Lidia Guerra
+		</p>
+    </div>
+
+</div>
+
+<!-- Tratamentos -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l3 w3-center" id="tratamentos">
+
+	<div class="w3-center w3-rightbar w3-topbar w3-bottombar w3-leftbar w3-border-teal">
+		<h1>Tratamentos</h1>
+	</div>
+	
+	<br>
+	<br>
+<!-- Bloco #1 -->
+	<div class="w3-third">
+	<div class="w3-card w3-white">
+	  <img src="cerebro1.jpg" alt="Ansiedade" style="width:auto; max-height: 200px;">
+	  <div class="w3-container">
+	  <h3>Ansiedade</h3>
+	  <p style="text-indent: 0px;">
+	  Costumo explicar que estaremos ansiosos sempre que a mente
+	  não estiver onde o corpo está. Manifesta-se uma tensão,
+	  gera preocupações, constrói medos e poucas soluções.
+	  <p style="text-indent: 0px;">
+	  É um estado que pode ser normal se bem conduzido.
+	  Mas indica adoecimento quando os sentimentos se tornam excessivos,
+	  obsessivos e/ou interferem na qualidade de vida e no bem estar
+	  da pessoa.</p>
+	  </div>
+	  </div>
+	</div>
+
+<!-- Bloco #2 -->
+	<div class="w3-third">
+	<div class="w3-card w3-white">
+	  <img src="cerebro2.jpg" alt="Depressão" style="width:auto; max-height: 200px;">
+	  <div class="w3-container">
+	  <h3>Depressão</h3>
+	  <p style="text-indent: 0px;">
+	  É a perda de interesse por atividades comuns e consideradas 
+	  simples para o dia a dia. Mudanças de humor, irritabilidade e 
+	  apatia ou indiferença podem ser indicativos de Depressão. 
+	  Importante considerar que o sentimento de tristeza é possível, 
+	  mas nem sempre faz parte desse quadro emocional.
+	  <p style="text-indent: 0px;">
+	  A causa também pode ser por alterações no circuito neural, 
+	  sendo neste caso, imprescindível ajuda médica especializada 
+	  junto à psicoterapia.</p>
+	  </div>
+	  </div>
+	</div>
+	
+<!-- Bloco #3 -->	
+	<div class="w3-third">
+	<div class="w3-card w3-white">
+	  <img src="cerebro3.jpg" alt="Relacionamentos" style="width:auto; max-height: 200px;">
+	  <div class="w3-container">
+	  <h3>Relacionamentos</h3>
+	  <p style="text-indent: 0px;">
+	  Toda relação é melhor conduzida se equilibrarmos o 
+	  dar e o receber. Mas como saber os limites? Como ajustarmos 
+	  esses pontos se muitas vezes a relação se estremece com tantos 
+	  conteúdos internos? Nos relacionamentos se instalam nossos 
+	  primeiros conflitos.
+	  <p style="text-indent: 0px;">
+	  Sabemos a diferença entre emoção e sentimento? Os relacionamentos 
+	  são a base de muitos sucessos para os estímulos de autoconfiança e 
+	  autoestima. É importante conhecer o outro enquanto nos conhecemos.</p>
+	  </div>
+	  </div>
+	</div>
+</div>
+<div class="w3-row-padding w3-padding w3-theme-l3 w3-center" id="tratamentos">
+<!-- Bloco #4 -->		
+	<div class="w3-third">
+	<div class="w3-card w3-white">
+	  <img src="cerebro4.jpg" alt="Terapia de Casais" style="width:auto; max-height: 200px;">
+	  <div class="w3-container">
+	  <h3>Terapia de Casais</h3>
+	  <p style="text-indent: 0px;">
+	  Os motivos são diversos e únicos! Cada casal tem sua própria 
+	  identidade. Olhar nos olhos. Dar as mãos. Expressar afeto. Conversar, 
+	  confiar, ser e fazer parte do casal que forma naquela relação 
+	  passa ser parte de ser um, de ser indivíduo, ainda que agora sejam 
+	  dois. Integrar quem amamos em nossa vida pode exigir mais do que 
+	  esperávamos.
+	  <p style="text-indent: 0px;">
+	  Compreender e ajustar as individualidades num processo de 
+	  reconhecimento mútuo traz estabilidade e segurança. É a base para 
+	  uma família se desenvolver.</p>
+	  </div>
+	  </div>
+	</div>
+	
+<!-- Bloco #5 -->		
+	<div class="w3-third">
+	<div class="w3-card w3-white">
+	  <img src="cerebro5.jpg" alt="Traumas" style="width:auto; max-height: 200px;">
+	  <div class="w3-container">
+	  <h3>Traumas e Transtornos Psiquiátricos</h3>
+	  <p style="text-indent: 0px;">
+	  É fato que algumas experiências desencadeiam processos internos 
+	  profundos de difícil acesso e com grandes consequências. Os sintomas 
+	  denotam as rupturas cognitivas advindas de memórias dolorosas e o 
+	  indivíduo é acometido por transtornos que muitas vezes demoram pra ser 
+	  assumidos e tratados.
+	  <p style="text-indent: 0px;">
+	  É necessário acolhimento e boa condução, num acompanhamento repleto 
+	  de respeito e assistência vigilante. Podem ser necessárias orientações 
+	  aos familiares para que possamos garantir bons resultados.</p>
+	  </div>
+	  </div>
+	</div>
+	
+<!-- Bloco #6 -->		
+	<div class="w3-third">
+	<div class="w3-card w3-white">
+	  <img src="cerebro6.jpg" alt="Snow" style="width:auto; max-height: 200px;">
+	  <div class="w3-container">
+	  <h3>TOC - Transtorno Obsessivo-Compulsivo</h3>
+	  <p style="text-indent: 0px;">
+	  Perturbação que se faz presente através de pensamentos excessivos 
+	  (obsessões) que podem levar ou não a comportamentos repetitivos 
+	  (compulsões) no intuito de proteger sensações quase sempre percebidas 
+	  como irracionais. O indivíduo quase sempre se diagnostica sozinho e 
+	  geralmente tem muita dificuldade de buscar ajuda, chegando a sofrer anos 
+	  e anos com o problema.
+	  <p style="text-indent: 0px;">
+	  O desgaste físico, mental e emocional é bastante expressivo para quem 
+	  possui TOC, mas dificilmente exposto mesmo em ambiente familiar.
+	  Uma especialidade clínica que merece atenção ao paciente e total domínio 
+	  das estruturas cognitivas envolvidas para que o indivíduo consiga compreender 
+	  suas necessidades e maneiras de superar o problema.</p>
+	  </div>
+	  </div>
+	</div>
+	
+</div>
+
+
+<!-- Bloco Contato -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contato">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contato</span></div>
+      <p>Para agendar seu atendimento online, entre em contato</p>
+<!--       
+      <h3>Atos - Instituto do Desenvolvimento Humano</h3>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Rua Tasman, 186 - Jardim do Mar - SBC/SP - Brasil</p>
+-->
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +55 (11) 98774-0353</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  lidiaguerrapsicologa@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Nome</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Mensagem</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Gostei!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map 
+<img src="mapa.png" class="w3-image w3-greyscale-min w3-padding-16 w3-container" style="align:center; width:100%;">
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Redes Sociais</h4>
+  <a class="w3-button w3-large w3-teal" 
+	 href="https://www.facebook.com/lidiaguerrapsico/" 
+	 title="Facebook"><i class="fa fa-facebook"></i></a>
+	 
+  <a class="w3-button w3-large w3-teal" 
+	 href="https://www.linkedin.com/in/l%C3%ADdia-maria-guerra-brito-616ba769/" 
+	 title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  
+  <a class="w3-button w3-large w3-teal" 
+	 href="https://instagram.com/lidia_guerrabrito?r=nametag" 
+	 title="Instagram"><i class="fa fa-instagram"></i></a>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Início</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
