@@ -31,11 +31,25 @@ include("i_formata_cpf.php");
 	<body>
 
 		<form action="rec_novo_f.php" method="POST">
+			
 			CPF
-			<input type="hidden" name="input_cpf_titular" 	 			value="<?php echo $cpf_titular;?>" 	>
-			<input type="text" 	 name="format_cpf_titular" 	readonly 	value="<?php echo mask($cpf_titular,'###.###.###-##');?>" >
+			<input 
+						type="hidden" 
+						name="input_cpf_titular" 	 			
+						value="<?php echo $cpf_titular;?>" 	>
+			<input 
+						type="text" 	 
+						name="format_cpf_titular" 	
+						readonly 	
+						value="<?php echo mask($cpf_titular,'###.###.###-##');?>" >
+			
 			Nome Titular
-			<input type="text" name="input_nome_titular" 	readonly 	value="<?php echo $nome_titular;?>"	>	
+			<input 
+						type="text" 
+						name="input_nome_titular" 	
+						readonly 	
+						value="<?php echo $nome_titular;?>"	>	
+			
 			CPF Dependente (se existir)
 			<select  name="input_cpf_dependente">
 				<option value="">Sem dependente</option>
@@ -60,14 +74,29 @@ include("i_formata_cpf.php");
 					} 
 				?>
 			</select>
+
 			Data da Emissão
-			<input type="date" name="input_data_envio"		required  		placeholder="Data de Emissão">
+			<input 
+						type="date" 
+						name="input_data_envio"		
+						required  		
+						placeholder="Data de Emissão">
+			
 			Valor do Recibo
-			<input type="text" name="input_valor"			required		placeholder="Valor">	
+			<input 
+						type="text" 
+						name="input_valor"			
+						required		
+						placeholder="Valor">	
+			
 			Observação (se houver)
-			<input type="text" name="input_observacao"	value="Consultas realizadas nas seguintes datas: "					placeholder="Observação">	
+			<textarea 
+						type="textarea" 
+						style="width:100%;height:50%;"
+						name="input_observacao">Consultas realizadas nas seguintes datas:</textarea>
 			<br>
-			<input id="botao_ok" type="submit" name="IncluirReciboNovo" value="Gravar Registro">
+			<input 
+						id="botao_ok" type="submit" name="IncluirReciboNovo" value="Gravar Registro">
 
 		</form>
 
